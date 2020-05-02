@@ -1,4 +1,5 @@
 # uAnimationPlayer
+コードをシンプルにしたSimpleAnimation風のアニメーション再生機能。
 
 ## Features
 
