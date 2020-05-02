@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace uAnimationPlayer
+namespace VerySimpleAnimation
 {
     public static class AnimationClipExtension
     {

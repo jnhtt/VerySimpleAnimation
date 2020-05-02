@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace uAnimationPlayer.Sample
+namespace VerySimpleAnimation.Sample
 {
     public class AnimationTest : MonoBehaviour
     {

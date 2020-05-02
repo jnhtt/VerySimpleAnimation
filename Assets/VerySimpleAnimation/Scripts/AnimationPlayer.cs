@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Playables;
 using UnityEngine.Animations;
 
-namespace uAnimationPlayer
+namespace VerySimpleAnimation
 {
     public class AnimationPlayer : MonoBehaviour
     {

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace uAnimationPlayer.Sample
+namespace VerySimpleAnimation.Sample
 {
-    public class AnimationListPlayer : uAnimationPlayer.AnimationPlayer
+    public class AnimationListPlayer : VerySimpleAnimation.AnimationPlayer
     {
         [Serializable]
         public class AnimationData
@@ -70,7 +70,6 @@ namespace uAnimationPlayer.Sample
         }
         public void Play(string clipName, float speed = 1f, Action onFinish = null)
         {
-            Debug.Log(clipName);
             AnimationData data = null;
             if (animationDataDictionary.TryGetValue(clipName, out data))
             {
