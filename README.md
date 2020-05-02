@@ -1,5 +1,6 @@
 # VerySimpleAnimation
 コードをシンプルにしたSimpleAnimation風のアニメーション再生機能。
+使い方はAnimationListPlayer.csを見てください。
 
 ## Features
 
