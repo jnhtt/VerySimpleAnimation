@@ -25,5 +25,21 @@ namespace VerySimpleAnimation.Sample
                 animationListPlayer.Play(++animationIndex);
             }
         }
+
+        public void PlayDelayNextAnimation()
+        {
+            if (animationListPlayer != null)
+            {
+                animationListPlayer.PlayDelay(++animationIndex, 3f);
+            }
+        }
+
+        public void PlayQueueNextAnimation()
+        {
+            if (animationListPlayer != null)
+            {
+                animationListPlayer.PlayQueue(++animationIndex);
+            }
+        }
     }
 }
